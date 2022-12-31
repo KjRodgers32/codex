@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv);
 
-    const repsonse = await fetch('http://localhost:4000',{
+    const repsonse = await fetch('https://codex-app-020l.onrender.com',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
